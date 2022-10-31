@@ -2,7 +2,7 @@ class animal():
 
     def __innit__(self):
         self.type = ""
-        self.size = 0
+        self.size = ""
         self.age = 0
         self.name = ""
 
