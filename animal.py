@@ -4,6 +4,7 @@ class Animal():
         self.type = type
         self.size = ""
         self.age = 0
+        self.name = ""
         if type == "cat" :
             self.name = "Seymour"
         else :
@@ -31,4 +32,3 @@ class Animal():
         else :
             return self.name + " is young"
 
-    
